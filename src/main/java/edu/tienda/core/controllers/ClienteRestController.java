@@ -15,7 +15,8 @@ public class ClienteRestController {
     private List<Cliente> clientes = new ArrayList<>(Arrays.asList(
             new Cliente("arm","1234","Armstrong"),
             new Cliente("ald","1234","Aldrin"),
-            new Cliente("col","1234","Collins")
+            new Cliente("col","1234","Collins"),
+            new Cliente("bol","1234","Bola")
     ));
 
     @GetMapping("/clientes")
